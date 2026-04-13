@@ -143,13 +143,14 @@ Verifique novamente a classificação das transações, pois informei que gastei
 
 nem sempre a loja Riachuello será classificado como Vestuário, pois vende produtos diversos, incluindo relógios, aparelho de celular, etc. Você pode classificar como loja de departamentos ou se for informado o produto categorizar conforme interaçao do usuário. São exemplos de lojas de departamento como Lojas Renner, Lojas Americanas, C&A, dentre outras.
 
-site: https://financas-chat-interativo.lovable.app
+Resultado final, site: https://financas-chat-interativo.lovable.app
 
+O App de Finanças Pessoais Interativo com Vibe Coding, faz: 
+1 - registro de transações dos usuários por chat interativo que também pode dar dicas financeiras
+2 - alocacao das transações, conforme classificação automática em Metas e ou Relatórios que apresenta todas as transações listadas além fornecer gráficos em formato de pizza com o percentual das transações de acordo com sua classificação.
+3 - A tela Meta possui Metas Financeiras que são sincronizadas com a tela chat do assistente financeiro a cada registro.
+4 - Menu de ajustes
 
-
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
   - O que funcionou bem?  
   - O que não funcionou como o esperado?  

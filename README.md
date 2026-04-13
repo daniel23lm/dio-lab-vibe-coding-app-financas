@@ -149,16 +149,9 @@ O App de Finanças Pessoais Interativo com Vibe Coding, faz:
 1 - registro de transações dos usuários por chat interativo que também pode dar dicas financeiras
 2 - alocacao das transações, conforme classificação automática em Metas e ou Relatórios que apresenta todas as transações listadas além fornecer gráficos em formato de pizza com o percentual das transações de acordo com sua classificação.
 3 - A tela Meta possui Metas Financeiras que são sincronizadas com a tela chat do assistente financeiro a cada registro.
-4 - Menu de ajustes
+4 - Menu de ajustes para marcação e desmarcação de recebimento de e-mail e configuração da tela.
 
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+O chat e o relatório funcionnram bem, com necessidade de pequenos ajustes citados na interaçao com o lovable. 
+A tela Metas foi a mais complexa e ainda apresenta pendências que permaneceram devido limitação dos creditos no lovable 
+Conversar com IA é simples, mas exige conhecimento para saber como fazer os prompts para que ela entregue o esperado. 
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
-
-## 💬 Conclusão
-
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.

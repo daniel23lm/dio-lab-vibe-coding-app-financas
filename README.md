@@ -116,8 +116,9 @@ Design Universal: princípio que garante acessibilidade e inclusão, ampliando o
 
 Esse PRD revisado já está pronto para servir como base de desenvolvimento do MVP do aplicativo de finanças pessoais interativo, com foco em acessibilidade e experiência inclusiva.
 
-
 ```
+Interações com o Lovable: 
+
 
 - Seu **prompt final** (PRD);  
 - Prints ou pequenos vídeos das interações com a IA;  

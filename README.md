@@ -117,7 +117,34 @@ Design Universal: princípio que garante acessibilidade e inclusão, ampliando o
 Esse PRD revisado já está pronto para servir como base de desenvolvimento do MVP do aplicativo de finanças pessoais interativo, com foco em acessibilidade e experiência inclusiva.
 
 ```
-Interações com o Lovable: 
+Interações com o Lovable:
+
+Poderia criar um aplicativo de finanças pessoais interativo com base no PRD (product requirements documents).
+
+Ótimo, mas os lançamentos realizados no chat não foram incluídos (sincronizados) nas telas Metas e Relatórios. Além disso, tanto o chat quanto as telas Metas e Relatórios deveriam ter a opção de limpar (excluir) lançamentos, se possível, permitir selecionar cada lançamento que será excluído, também possibilite que as exclusões sejam solicitadas pelo chat. Consegue resolver isso, mantendo a estrutura do aplicativo?
+
+Ok, ficou bom, mas a tela Metas ainda não está sincronizada com o chat e não tem a opção de exclusão seletiva. Gentileza realizar nova verificação e incluir a sincronização para que os comandos do chat para limpar tudo, excluir tudo e exclusão seletivas sejam realizados como na tela Relatórios na própria tela. Além disso quero que o chat assimile palavras similares para os comandos de gastos e receitas como exemplo comprei, paguei, saquei, depositei, investi, etc. Enfim, analise a palavra utiliza e classifique como despesas (débitos) e receitas (créditos)
+
+Eu dei um comando "Investi 5000 em reserva de emergência" q mas a conta ResevateMetas consta as metas financeiras Reserva de Emergência, Viagem de Férias e Novo notebook que estão congelados, não foram alterados com os comandos no chat.
+
+Incluir na tela Metas a opção de excluir todas as Metas Financeiras e também exclusão seletiva para cada Meta Financeira (Reserva de emergência, Viagem de Férias e Novo notebook). O botão "+ Nova meta” deve permitir incluir uma nova meta financeira, mas nao esta funcionando. Os lançamentos na tela Meta devem ser apenas referente as transações classificadas automaticamente como investimento, tanto entradas como saídas de recursos. Poderia fazer uma correção mais profunda para que esses erros não se repitam. 
+
+Na tela Relatórios incluir o botão "Excluir todos" para exclusão de todos os lançamentos. As transações classificadas como investimento também devem ser lançados na tela de Relatórios. Na tela Metas as transações classificadas como investimento entram como positivas e soma a meta, já em relatórios entram nirmalmente como despesa, reduz a receita. Poderia verificar se os lançamentos estão corretos seguinte o modelo bancário.
+
+Na tela Meta, gentileza incluir um botão Alteração em cada Meta Financeira, onde abre um formulário funcional igual ao formulário utilizado para criar nova meta.Verifique o funcionamento.
+
+Ao ser iniciaado aplicativo, a tela Metas, vem com três Metas Financeiras (Reserva de emergência, Viagem de férias e Novo notebook) previamente preenchidas, entretanto há um bug, pois quando edito o formulário, campo valor arlvo, altera na meta financeira no item faltam R$ quando deveria alterar o valor inicial da meta financeira, ou seja, o campo alvo ele é somado
+
+Ficou ótimo, agora para finalizar tanto na tela Metas quanto na tela Relatórios, gentileza iniciar o aplicativo sem nenhuma transação. Pode manter as três sugestões de Metas Financeiras, mas com os campo atual, meta (valor alvo) e faltam zerados para que o usuário possa preenchê-los. Proceda da mesma forma na tela Relatórios, iniciando com todos os campos (Receitas, Despesas, Saldo), inclusive Extrato Recente, pois todos serão preenchidos após lançamentos do usuário. Gentileza verificar o funcionamento correto após alteração na programação.
+
+Revise os parâmetros de classificação e monetário das transações, pois registrei o recebimento de 10 mil reais de salário e foi registrado R$ 10,00 com classificação (outros) quando deveria ser registrado R$ 10.000,00 com classificaçao Renda ou Remuneração. Considere a escrita natural das pessoas que descrevem valores utiliando a forma numeral e por extenso juntas, como 1 mil reais, 1 milhão de reais, etc. Também considere as conjugações verbais pagar conta, pagamento de ao invés de paguei, gastei, etc para iniciar na interaçao do chat.
+
+Verifique novamente a classificação das transações, pois informei que gastei 100 com camisa na loja Riachuello e foi classificado como outros, quando deveria ser roupas, vestuário, etc, uma vez que informei que a compra foi de uma camisa. Portanto, quero que considere o produto informado para determinar a classificação, evite ao máximo utilizar a classificação Outros. Corriga e verifique, por favor
+
+nem sempre a loja Riachuello será classificado como Vestuário, pois vende produtos diversos, incluindo relógios, aparelho de celular, etc. Você pode classificar como loja de departamentos ou se for informado o produto categorizar conforme interaçao do usuário. São exemplos de lojas de departamento como Lojas Renner, Lojas Americanas, C&A, dentre outras.
+
+site: https://financas-chat-interativo.lovable.app
+
 
 
 - Seu **prompt final** (PRD);  
